@@ -1,0 +1,118 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+    font-family: "Outfit", Arial, Helvetica, sans-serif;
+}
+
+body {
+    background-color: antiquewhite;
+    padding: 5%;
+    margin-left: 20%;
+    margin-right: 20%;
+    border-radius: 20px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.view {
+    width: 95%;
+    background-color: white;
+    padding: 3%;
+    display: flex;
+    flex-direction: column;
+}
+
+.head img {
+    width: 100%;
+    padding: 20px;
+    border-radius: 2%;
+}
+
+.about {
+    margin-top: 30px;
+    margin-bottom: 30px;
+}
+
+.prep {
+    background-color: rgb(247, 232, 243);
+    padding: 2%;
+    gap: 5px;
+}
+
+.prep ul {
+    margin-left: 15px;
+    padding: 1%;
+}
+
+.prep li {
+    padding: 0.3%;
+    gap: 5px;
+}
+
+.ingredients {
+    padding: 2%;
+    gap: 5px;
+}
+
+.ingredients ul {
+    margin-left: 15px;
+    padding: 1%;
+}
+
+.ingredients li {
+    padding: 0.3%;
+}
+
+.instructions {
+    padding: 2%;
+    gap: 5px;
+}
+
+.instructions ol {
+    margin-left: 15px;
+    padding: 1%;
+}
+
+.instructions li {
+    padding: 0.3%;
+}
+
+.nutrition {
+    padding: 2%;
+    gap: 5px;
+}
+
+.nutrition p {
+    margin-top: 5px;
+    margin-bottom: 5px;
+}
+
+h2 {
+    color: rgb(140, 29, 29);
+}
+
+.num {
+    color: rgb(140, 29, 29);
+}
+
+table {
+    border-collapse: collapse;
+    width: 50%;
+}
+
+tr {
+    border-bottom: 1px solid #352727;
+    margin-bottom: 10px;
+}
+
+.attribution {
+    font-size: 11px;
+    text-align: center;
+}
+
+.attribution a {
+    color: hsl(228, 45%, 44%);
+}
